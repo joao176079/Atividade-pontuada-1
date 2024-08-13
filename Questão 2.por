@@ -4,6 +4,7 @@ programa {
     //Aluno : Joao victor mendes 
     // Data : 13 / 08 / 2024
     // Docente : Carlos andersson
+    // QuestÃ£o 02
     
     
     
@@ -12,8 +13,7 @@ programa {
     
     
     
-    
-    // Declaração de variáveis.
+    // DeclaraÃ§Ã£o de variÃ¡veis.
 cadeia nome
 caracter sexo
 cadeia estado_civil
@@ -21,36 +21,36 @@ inteiro tempo_de_casado
 
 
 // Solicitando dados.
-escreva("\nQual é seu nome amigo ? ")
+escreva("\nQual Ã© seu nome amigo ? ")
 leia(nome)
-escreva("\nQual é o seu sexo ?, apenas em M para masculino ou F para feminino: ")
+escreva("\nQual Ã© o seu sexo ?, apenas em M para masculino ou F para feminino: ")
 leia(sexo)
-escreva("Qual é o seu estado civil atualmente ?  ")
+escreva("Qual Ã© o seu estado civil atualmente ?  ")
 leia(estado_civil)
 
-// Exibição de dados.
+// ExibiÃ§Ã£o de dados.
 se(estado_civil == "casada"){
-escreva("quantos anos você tem de casado? ")
+escreva("quantos anos vocÃª tem de casado? ")
 leia(tempo_de_casado)}
 senao se(estado_civil == "casado"){
-escreva("quantos anos você tem de casado? ")
+escreva("quantos anos vocÃª tem de casado? ")
 leia(tempo_de_casado)}
 senao {
 escreva("  ")}
 
-escreva("\nSeu nome é : " + nome ) 
+escreva("\nSeu nome Ã© : " + nome ) 
 escreva("\n sexo:  " )
 se(sexo == 'm' ou 'M')
 escreva("masculino ")
 senao escreva("feminino")
-escreva("\nSeu estado civil atualmente  é: " )
+escreva("\nSeu estado civil atualmente  Ã©: " )
  
 se (estado_civil == "casada")
-escreva("\nVocê tem " + tempo_de_casado + "  anos de casada")
+escreva("\nVocÃª tem " + tempo_de_casado + "  anos de casada")
 senao se(estado_civil == "casado"){
-escreva("\nVocê tem  " + tempo_de_casado + "  anos de casado")}
+escreva("\nVocÃª tem  " + tempo_de_casado + "  anos de casado")}
 senao
 
-escreva("\nVocê é solteiro !!!")
+escreva("\nVocÃª Ã© solteiro !!!")
   }
 }
