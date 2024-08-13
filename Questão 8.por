@@ -2,13 +2,14 @@ programa {
   funcao inicio() {
     
     
-    //Aluno : Jo„o Victor Mendes 
+    //Aluno : Jo√£o Victor Mendes 
     //Data : 13/08/2024
     //Docente: Carlos Andersson 
+    // Quest√£o 08
     
     
     
-       //DeclaraÁ„o de variaveis
+       //Declara√ß√£o de variaveis
     cadeia cor
     inteiro verde, azul, amarelo, vermelho
 
@@ -19,20 +20,20 @@ programa {
    
    
    
-   // ExibiÁ„o 
+   // Exibi√ß√£o 
     escreva("Qual a cor do cd? ")
     leia (cor)
    
    
-   //fazendo a comparaÁao lÛgica
+   //fazendo a compara√ßao l√≥gica
     se (cor == "verde" )
-    escreva("O preÁo foi: $" + verde + "  reais")
+    escreva("O pre√ßo foi: $" + verde + "  reais")
     se(cor == "azul")
-    escreva("O preÁo foi $" + azul + " reais")
+    escreva("O pre√ßo foi $" + azul + " reais")
     se(cor == "amarelo")
-   escreva("O preÁo foi $" + amarelo + " reais")
+   escreva("O pre√ßo foi $" + amarelo + " reais")
     se(cor == "vermelho")
-  escreva("O preÁo foi $" + vermelho + " reais")
+  escreva("O pre√ßo foi $" + vermelho + " reais")
    
 
   }
