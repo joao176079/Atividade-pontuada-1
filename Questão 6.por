@@ -1,32 +1,57 @@
 programa {
   funcao inicio() {
-    // Aluno : João Victor 
-    // Data : 13/08/2024
+    
+    // Aluno : Joao Victor Mendes 
+    // Data 13 / 08 / 2024 
     // Docente : Carlos Andersson 
+    //QuestÃ£o 06
 
-  //Declaração de variáveis :
 
-   inteiro a,b,c
+    // DeclaraÃ§Ã£o de variÃ¡veis.
+    real nota1 ,nota2
+    cadeia nome
+    real notafinal
 
-   escreva("Digite o seu número : ")
-   leia (a)
+  // Solicitando dados.
+    escreva("\nDigite seu nome : ")
+     leia (nome)
 
-   escreva("Digite o seu segundo número :")
-   leia(b)
+    escreva ("\nDigite sua primeira nota  :")
+    leia(nota1)
 
-   escreva("Digite o seu terceiro número :")
-   leia(c)
+    escreva (" Digite a sua segunda nota :")
+    leia(nota2)
 
-  //Exibição de dados 
- 
- escreva("Primeiro número: " , + a)
- escreva("\nSegundo número: " , + b )
- escreva("\nTerceiro número:" , + c )
+    notafinal = ( nota1 + nota2 ) / 2 
+    escreva (" A sua mÃ©dia foi de: " + notafinal)
 
- se (a e b > c )
-  escreva ("\nÉ maior que C ")
-senao se ( a e b < c)
- escreva (" \nÉ menor que C ")
+    // Exibindo Dados.
+    
+    
+    escreva ("\nSua primeira nota  " , + nota1)
+    escreva ("\nSua segunda nota " , + nota2)
+
+    // Calculo
+    se (notafinal >= 6.0){
+      escreva("\n  parabÃ©ns vocÃª foi aprovado !")
+
+    }
+  senao se ( notafinal >= 4.0 ){
+   escreva("\n vocÃª estÃ¡ em recuperaÃ§Ã£o.")
+   }
+   senao 
+    escreva(" \n VocÃª foi reprovado !")
+
+
+
+
+
+
+
+
+
+  }
+}
  
 
 
