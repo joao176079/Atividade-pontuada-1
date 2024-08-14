@@ -1,35 +1,39 @@
-programa {
-  funcao inicio() {
-    // ALUNO : JOAO VICTOR MENDES 
-    // DOCENTE : CARLOS ANDERSSON
-    // DATA : 13/08/2024
-    
-    
-    
-    
-    // Organizando váriaveis
-    inteiro soma, subtracao, multiplicacao, divisao, primeiro_numero, segundo_numero
+
+//ALUNO : JOAO VICTOR MENDES 
+//DATA : 14/08/2024
+//DOCENTE : CARLOS ANDERSSON
 
 
-    // Solicitando dados
-  escreva("Digite o primeiro número:")
-  leia(primeiro_numero)
-
-  escreva("Digite o segundo número")
-  leia(segundo_numero)
+    //declarando as variÃ¡veis
+real primeiro_numero, segundo_numero, resultado_operacao
+  cadeia operacao
 
 
+    //solicitando os dados
+    escreva("Digite o primeiro nÃºmero? ")
+    leia(primeiro_numero)
+    escreva("Digite o segundo nÃºmero? ")
+    leia(segundo_numero)
+    escreva("Qual Ã© a operaÃ§Ã£o? ")
+    leia(operacao)
 
-    // Calculando
-    soma = primeiro_numero + segundo_numero
-    subtracao = primeiro_numero - segundo_numero
-    multiplicacao = primeiro_numero * segundo_numero
-    divisao = primeiro_numero / segundo_numero
+    //criando os operadores lÃ³gicos e as condicionais
+   
+      se (operacao == "+"){
+     
+      resultado_operacao  = primeiro_numero + segundo_numero
+        escreva("\nO resultado de: " + primeiro_numero + " " + "+" + " " + segundo_numero + " = " + resultado_operacao)}
+     
+      se(operacao == "-"){
+        resultado_operacao = primeiro_numero - segundo_numero
+        escreva("\nO resultado de: " + primeiro_numero + " " + "-" + " " + segundo_numero + " = " + resultado_operacao)}
 
-    // Exibindo dados
-  escreva("\nSoma:" + soma)
-  escreva("\nSubtração:" + subtracao)
-  escreva("\nMultiplicção:" + multiplicacao)
-  escreva("\nDivisão: " + divisao)
-  }
-}
+    se(operacao == "*"){
+        resultado_operacao = primeiro_numero * segundo_numero
+        escreva("\nO resultado de: " + primeiro_numero + " " + "*" + " " + segundo_numero + " = " + resultado_operacao)}
+     
+      se(operacao == "/"){
+        resultado_operacao = primeiro_numero / segundo_numero
+        escreva("\nO resultado de: " + primeiro_numero + " " + "/" + " " + segundo_numero + " = " + resultado_operacao)}
+       
+       
