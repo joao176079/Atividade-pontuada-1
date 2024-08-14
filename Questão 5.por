@@ -4,12 +4,12 @@
 //DOCENTE : CARLOS ANDERSSON
 
 
-    //declarando as variáveis
+    // Declaração de variáveis
 real primeiro_numero, segundo_numero, resultado_operacao
   cadeia operacao
 
 
-    //solicitando os dados
+    // Pedindo dados .
     escreva("Digite o primeiro número? ")
     leia(primeiro_numero)
     escreva("Digite o segundo número? ")
@@ -17,7 +17,7 @@ real primeiro_numero, segundo_numero, resultado_operacao
     escreva("Qual é a operação? ")
     leia(operacao)
 
-    //criando os operadores lógicos e as condicionais
+    // Calculando.
    
       se (operacao == "+"){
      
